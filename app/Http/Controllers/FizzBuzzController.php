@@ -19,7 +19,7 @@ class FizzBuzzController extends Controller
                 array_push($arr, $i);
             }
         }
-        return $arr;
+        return view("welcome",compact('arr'));
     }
 
 

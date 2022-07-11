@@ -5,3 +5,6 @@ Este projeto implementa um testes unit√°rios usando TDD em Laravel com um exerc√
 Comandos:
 Executar .\vendor\bin\phpunit
 Executar Test unitario .\vendor\bin\phpunit --filter=FizzBussTest
+
+Front:
+View ng server localhost/FizzBuzz 
