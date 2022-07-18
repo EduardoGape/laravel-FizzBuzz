@@ -1,7 +1,7 @@
 
 ## FizzBusss
 
-Este projeto implementa um testes unitários usando TDD em Laravel com um exercício prático, solucionando o problema Fizz Buzz.
+Este projeto implementa um testes unitários com um exercício prático, solucionando o problema Fizz Buzz.
 
 ## Como Executar 
 
