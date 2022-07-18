@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf08">
-        <title>FizzBuss</title>
+        <title>FizzBuzz</title>
         <style>
             table {
             font-family: arial, sans-serif;

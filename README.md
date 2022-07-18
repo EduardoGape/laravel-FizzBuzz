@@ -1,5 +1,5 @@
 
-## FizzBusss
+## FizzBuzz
 
 Este projeto implementa um testes unitários com um exercício prático, solucionando o problema Fizz Buzz.
 
@@ -11,4 +11,4 @@ Faça a instalação do laravel e execute **php artisan serve**
 
 Execute Este comando no terminal.
 
-- **.\vendor\bin\phpunit --filter=FizzBussTes**
+- **.\vendor\bin\phpunit --filter=FizzBuzzTes**

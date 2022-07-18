@@ -15,5 +15,5 @@ use App\Http\Controllers\FizzbussController;
 |
 */
 
-Route::get('/fizzbuss', [FizzbussController::class, 'getList']);
+Route::get('/fizzbuzz', [FizzbuzzController::class, 'getList']);
 

@@ -3,17 +3,17 @@
 namespace App;
 
 
-class FizzBuss
+class FizzBuzz
 {
     public function getList(){
         $arr = [];
         for($i = 1; $i <= 100; $i++){
-            if($this->isFizzBussFor($i)) {
-                array_push($arr, 'FizzBuss');
+            if($this->isFizzBuzzFor($i)) {
+                array_push($arr, 'FizzBuzz');
             }else if($this->isFizzFor($i)){
                 array_push($arr, 'Fizz');
-            }else if($this->isBussFor($i)) {
-                array_push($arr, 'Buss');
+            }else if($this->isBuzzFor($i)) {
+                array_push($arr, 'Buzz');
             }else{
                 array_push($arr, $i);
             }
@@ -27,11 +27,11 @@ class FizzBuss
         return $number % 3 == 0;
     }
 
-    public function isBussFor($number){
+    public function isBuzzFor($number){
         return $number % 7 == 0;
     }
 
-    public function isFizzBussFor($number){
+    public function isFizzBuzzFor($number){
         return $number % 3 == 0 && $number % 7 == 0;
     }
 }
