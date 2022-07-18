@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\FizzbussController;
+use App\Http\Controllers\FizzbuzzController;
 
 
 /*
