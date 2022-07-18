@@ -11,4 +11,4 @@ Faça a instalação do laravel e execute **php artisan serve**
 
 Execute Este comando no terminal.
 
-- **.\vendor\bin\phpunit**
+- **.\vendor\bin\phpunit --filter=FizzBussTes**
