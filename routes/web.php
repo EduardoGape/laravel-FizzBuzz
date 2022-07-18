@@ -1,5 +1,9 @@
 <?php
 
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\FizzbussController;
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -10,6 +14,6 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-use App\Http\Controllers\FizzBuzzController;
 
-Route::get ('/FizzBuzz', [FizzBuzzController::class ,'getList']);
+Route::get('/fizzbuss', [FizzbussController::class, 'getList']);
+

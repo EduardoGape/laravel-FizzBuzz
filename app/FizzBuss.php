@@ -28,10 +28,10 @@ class FizzBuss
     }
 
     public function isBussFor($number){
-        return $number % 5 == 0;
+        return $number % 7 == 0;
     }
 
     public function isFizzBussFor($number){
-        return $number % 3 == 0 && $number % 5 == 0;
+        return $number % 3 == 0 && $number % 7 == 0;
     }
 }

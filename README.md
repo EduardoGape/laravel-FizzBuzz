@@ -1,10 +1,14 @@
-# laravel-test
-Laravel FizzBuzz
+
+## FizzBusss
+
 Este projeto implementa um testes unitários usando TDD em Laravel com um exercício prático, solucionando o problema Fizz Buzz.
 
-Comandos:
-Executar .\vendor\bin\phpunit
-Executar Test unitario .\vendor\bin\phpunit --filter=FizzBussTest
+## Como Executar 
 
-Front:
-View ng server localhost/FizzBuzz 
+Faça a instalação do laravel e execute **php artisan serve**
+
+## Como Executar Test
+
+Execute Este comando no terminal.
+
+- **.\vendor\bin\phpunit**
